@@ -1,0 +1,50 @@
+####################
+#                  #
+# Copiar todo esto #
+#                  #
+####################
+# Hecho con gusto por Carla Carolina Pérez Hernández (UAEH)
+#V3
+# LABORATORIO - Gráficos en R con ggplot2 para Ciencia de Datos
+# Graficas de barras en R 
+
+
+
+#instalando paquete con los datos
+#install.packages("gapminder")
+#install.packages("ggplot2")
+# Grafica de lineas en R
+
+
+# cargar libreria ggplot2 y gapminder
+library(ggplot2)
+library(gapminder)
+
+
+# cargando datos a entorno
+data("gapminder")
+
+# filtrando por año 2007
+gapminder2007 <- gapminder[gapminder$year == '2007', ]
+
+# grafica de barras
+
+
+
+# grafica de barras (VERTICAL)
+
+# creando etiqueta para expectativa de vida
+
+
+
+
+# guardando grafica en variable
+
+# stacked bar chart (apilalada)
+
+
+# dogde bar chart (separada)
+
+
+# LLENA 100% + percent barchart
+
